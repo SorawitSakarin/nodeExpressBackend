@@ -1,0 +1,9 @@
+{
+    "env":{
+        "DB_USER":"Sorawit",
+        "DB_PASSWORD":"5LrpKg4PlWgXC0l2",
+        "DB_NAME":"mern",
+        "GOOGLE_MAP_API_KEY":"AIzaSyCenJmzvZ6yPV65n-v7j9aneGI_f-hZU-4",
+        "JWT_KEY" : "supersecret_dont_share"
+    }
+}
