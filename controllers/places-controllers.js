@@ -175,7 +175,7 @@ const deletePlace = async (req, res, next) => {
     await place.creator.save({session:sess});
     await sess.commitTransaction();
   } catch(err) {
-    const error = new HttpError('Something went wrong, could not update place',500);
+    const error = new HttpError('Something went wrong, could not update places',500);
     return next(error);
   }
 
